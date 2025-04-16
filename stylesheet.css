@@ -1,0 +1,18 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    font-size: 1em;
+    color: blue;
+    line-height: 130%;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+ul#mainNav {
+    list-style-type: square;
+
+}
+
+img {
+    width: 30%;
+    height: 30%;
+}
