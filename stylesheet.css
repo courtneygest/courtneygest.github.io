@@ -9,7 +9,21 @@ body {
 
 ul#mainNav {
     list-style-type: square;
+    align-content: center;
+    background-color: #ffffff;
+}
 
+a:link {
+    color: #0000ff;
+}
+
+a:visited {
+    color: #9932cc;
+    text-decoration: line-through;
+}
+
+a:hover {
+    color: #ff1493;
 }
 
 img {
