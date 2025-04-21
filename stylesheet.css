@@ -3,13 +3,14 @@ body {
     font-size: 1em;
     color: blue;
     line-height: 130%;
-    text-align: center;
+    text-align: left;
     text-transform: lowercase;
+    background-image: url("images/blue_stars.png");
+    background-repeat: repeat;
 }
 
 ul#mainNav {
     list-style-type: square;
-    align-content: center;
     background-color: #ffffff;
 }
 
