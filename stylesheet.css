@@ -25,14 +25,12 @@ div#header {
     padding-top: 2%;
 }
 
-/* Navigation Links */
-
 div#nav {
     width: 30%;
     margin: 0%;
     padding: 3%;
     display: inline;
-    overflow: auto;
+    height: 10em;
 }
 
 ul#mainNav {
@@ -45,7 +43,7 @@ a:link {
 }
 
 a:visited {
-    color: #ffd3f3;
+    color: #a600ff;
     text-decoration: line-through;
 }
 
@@ -53,13 +51,12 @@ a:hover {
     color: #ff1493;
 }
 
-/* Navigation Links END */
-
 div#Small-Courtney {
     position: fixed;
     top: 0%;
     bottom: 0%;
     z-index: 1;
+    scale: 25%;
 }
 
 /* Class */
@@ -81,10 +78,8 @@ div#Small-Courtney {
     background-color: #0000ff;
     color: white;
     text-align: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    overflow: auto;
 }
-/* Class END */
 
 div#footer {
     width: 100%;
