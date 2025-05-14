@@ -1,0 +1,16 @@
+nav {
+ text-align: center;
+}
+
+ul#mainNav {
+    list-style-type: none;
+}
+
+li#nav {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 1rem;
+}
