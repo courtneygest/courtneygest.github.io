@@ -1,16 +1,13 @@
-nav {
- text-align: center;
+header {
+    padding-top: 1%;
 }
 
-ul#mainNav {
-    list-style-type: none;
+div {
+    padding: 1% 0%;
 }
 
-li#nav {
-    float: left;
-}
-
-li a {
-    display: block;
-    padding: 1rem;
+body {
+    font-family: blackest, sans-serif;
+    font-style: normal;
+    font-weight: 300;
 }
