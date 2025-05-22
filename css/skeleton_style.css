@@ -7,7 +7,12 @@ div {
 }
 
 body {
-    font-family: blackest, sans-serif;
-    font-style: normal;
-    font-weight: 300;
+  color: #ec6aa2;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+    font-family: "Instrument Serif", serif;
 }
