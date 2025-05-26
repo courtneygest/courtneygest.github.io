@@ -7,7 +7,6 @@ div {
 }
 
 body {
-  color: #ec6aa2;
   font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -15,4 +14,27 @@ body {
 
 h1 {
     font-family: "Instrument Serif", serif;
+    font-size: 7rem;
+}
+
+
+
+
+img#Fish {
+    position: relative;
+    animation-name: swim;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    transition: all;
+}
+
+img#Fish:hover {
+    scale: 2;
+}
+
+@keyframes swim {
+    0% {left:100%; right:0%;}
+    100% {left: 0%; right: 60%}
 }
