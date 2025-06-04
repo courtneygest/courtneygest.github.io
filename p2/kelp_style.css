@@ -24,17 +24,20 @@
   font-family: "Instrument Serif", serif;
   font-size: 6.4rem;
   line-height: 105%;
+  margin-bottom: 2%;
 }
 
 .emphasis {
   font-family: "Instrument Sans", sans-serif;
   font-size: 2.4rem;
   font-weight: 500;
+  margin-bottom: 2%;
 }
 
 .body {
   font-family: "Instrument Sans", sans-serif;
   font-size: 1.6rem;
+  margin-bottom: 2%;
 }
 
 /* Alignments */
@@ -42,15 +45,22 @@
   text-align: center;
 }
 
-/* Id's */
-#HeroImage {
-  background-color: darkcyan;
+.image {
+  margin: 3% 0;
+  width: 100%;
+  background-color: #5f9ea0;
   padding: 5% 0;
 }
 
-/* Temporary */
-.placeholder {
-  width: 100%;
-  height: 450px;
-  background-color: #5f9ea0;
+/* Id's */
+#HeroImage {
+  background-color: darkcyan;
+  padding-top: 5%;
+  margin-bottom: 5%;
 }
+
+#animal {
+  padding: 0 8.66666666667%;
+}
+
+/* Temporary */
