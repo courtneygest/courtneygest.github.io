@@ -1,5 +1,5 @@
 header {
-    padding-top: 1%;
+   padding: 0%;
 }
 
 div {
@@ -7,14 +7,41 @@ div {
 }
 
 body {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 h1 {
-    font-family: "Instrument Serif", serif;
+    font-family: "Roboto", sans-serif;
     font-size: 7rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+h5 {
+    font-weight: bolder;
+    text-align: center;
+}
+
+.nav {
+    text-align: center;
+    border: 2px;
+    border-style: solid;
+    margin: 3% 0;
+}
+
+a:link {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:visited {
+    color: #000000;
+}
+
+a:hover {
+    font-weight: bold;
 }
 
 
