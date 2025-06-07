@@ -12,7 +12,7 @@
   font-family: "Instrument Serif", serif;
   font-size: 6.4rem;
   line-height: 105%;
-  margin-bottom: 2%;
+  margin-bottom: 3%;
 }
 
 .emphasis {
@@ -28,38 +28,68 @@
   margin-bottom: 2%;
 }
 
-.hero {
-  background-image: url(../images/KelpForest-min.jpg);
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  padding-top: 10%;
-  color: #ffffff;
-}
-
-.fullwidth {
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-}
-
 /* Alignments */
 .center {
   text-align: center;
 }
 
+.space {
+  margin-bottom: 5%;
+}
+
+/* Imagery */
+
 .image {
-  margin: 3% 0;
+  margin-bottom: 2%;
+}
+
+.animal {
+  background-size: cover;
+  background-position: center;
+  padding: 3% 0;
+  color: rgba(0, 0, 0, 0);
 }
 
 /* Id's */
 
+#hero {
+  background-image: url(../images/KelpForest-min.jpg);
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  padding: 10% 3% 3%;
+  color: #ffffff;
+  background-attachment: fixed;
+}
 
-#animal {
-  padding: 0 8.66666666667%;
+#urchin {
+  background-image: url(../images/Urchin-min.jpeg);
+}
+
+#seastar {
+  background-image: url(../images/SunflowerSeastar-min.jpeg);
+}
+
+#otter {
+  background-image: url(../images/Otter-min.jpeg);
+}
+
+#urchin:hover,
+#urchin:active,
+#seastar:hover,
+#seastar:active,
+#otter:hover,
+#otter:active {
+  background-image: none;
+  color: #000000;
+}
+
+
+
+
+
+#footer {
+  margin-top: 10%;
 }
 
 /* Media Query */
@@ -71,6 +101,7 @@
 
   .header {
     font-size: 3.6rem;
+    margin-top: 3%;
   }
 
   .emphasis {
@@ -81,12 +112,8 @@
     font-size: 1.4rem;
   }
 
-  .image {
-    padding: 3%;
-  }
-
-  #HeroImage {
-    padding: 10% 1% 1%
+  #hero {
+    padding: 10% 3% 5%;
   }
 
 }
