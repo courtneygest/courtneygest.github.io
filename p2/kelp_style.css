@@ -6,6 +6,9 @@
   font-weight: 400;
   line-height: 105%;
   margin-bottom: 3%;
+  animation-name: fade;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
 }
 
 .header {
@@ -34,7 +37,7 @@
 }
 
 .space {
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 
 /* Imagery */
@@ -48,6 +51,13 @@
   background-position: center;
   padding: 3% 0;
   color: rgba(0, 0, 0, 0);
+}
+
+/* Animation */
+
+@keyframes fade {
+  0% {opacity: 0%;}
+  100% {opacity: 100%;}
 }
 
 /* Id's */
@@ -84,10 +94,6 @@
   color: #000000;
 }
 
-
-
-
-
 #footer {
   margin-top: 10%;
 }
@@ -114,6 +120,7 @@
 
   #hero {
     padding: 10% 3% 5%;
+    object-fit: cover;
   }
 
 }
