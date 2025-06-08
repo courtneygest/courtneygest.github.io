@@ -40,6 +40,10 @@
   margin-bottom: 3%;
 }
 
+img {
+  object-fit: cover;
+}
+
 /* Imagery */
 
 .image {
