@@ -120,7 +120,7 @@
 
   #hero {
     padding: 10% 3% 5%;
-    object-fit: cover;
+    max-width: 100%;
   }
 
 }
