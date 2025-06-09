@@ -7,8 +7,9 @@
   line-height: 105%;
   margin-bottom: 3%;
   animation-name: fade;
-  animation-duration: 3s;
+  animation-duration: 4s;
   animation-iteration-count: 1;
+  animation-delay: 0.5s;
 }
 
 .header {
@@ -103,7 +104,7 @@ img {
 }
 
 /* Media Query */
-@media (max-width: 400px) {
+@media (max-width: 480px) {
 
   .headline {
     font-size: 7.5rem;
